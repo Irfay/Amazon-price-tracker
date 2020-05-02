@@ -1,14 +1,14 @@
-from selenium import webdriver
+
 from time import sleep
 from bs4 import BeautifulSoup
 import requests
 import smtplib
 
-headers = {"User-Agent": 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'}
+headers = #PUT IN YOUR USER AGENT
 site = input("Please provide URL of item on Amazon SG: ")
-email = 
-password = 
-send_to = 
+email = #PUT IN YOUR GMAIL ADDRESS TO SEND FROM
+password = #PUT IN YOUR PASSWORD GENERATED
+send_to = #PUT IN THE EMAIL TO SEND TO
 
 def check_price():
 
